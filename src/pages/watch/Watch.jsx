@@ -6,15 +6,13 @@ const Watch = () => {
     <div className="watch">
       <div className="back">
         <ArrowBackOutlinedIcon />
-        home
+        Home
       </div>
       <video className="video" 
-        autoPlay 
-        controls 
-        >
-        <source src="./The.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      autoPlay 
+      progress 
+      controls 
+      src="https://video-links.b-cdn.net/media/videolinks/video/PrismFX.mp4" />
     </div>
   );
 };
